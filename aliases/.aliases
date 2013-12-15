@@ -5,6 +5,10 @@ alias ..='cd ..'
 alias l='ls -alh'
 alias ll='ls -alth'
 
+#Customize
+alias c='clear'
+alias bug='cd ~/bin/dotfiles'
+
 #NewDir
 take(){
 	mkdir $1
