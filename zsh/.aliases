@@ -1,0 +1,8 @@
+#ALIASES
+
+alias l='ls -alth'
+
+take(){
+	mkdir $1
+	cd $1
+}
