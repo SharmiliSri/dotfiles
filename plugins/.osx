@@ -1,0 +1,53 @@
+# OSX Defaults
+# -------------
+# Ripped from popular dotfile repositores to make life easier in OSX
+
+# Finder: show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+
+# Set the Finder prefs for showing a few different volumes on the Desktop.
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+
+# Prevent Time Machine from prompting to use new hard drives as backup volume
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+# Check for software updates daily, not just once per week
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+
+
+# Set a really fast key repeat.
+defaults write NSGlobalDomain KeyRepeat -int 0
+
+# Show the ~/Library folder.
+chflags nohidden ~/Library
+
+# Use AirDrop over every interface
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+
+
+#Safari 
+#------
+
+#Allow hitting the Backspace key to go to the previous page in history
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
+
+
+#Hide Safari's bookmark bar.
+defaults write com.apple.Safari ShowFavoritesBar -bool false
+
+#Set up Safari for development.
+defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+#Display current directory in terminal title 
+settitle() { printf "\e]0;$@\a" }
+dir_in_title() { settitle $PWD }
+chpwd_functions=(dir_in_title)
