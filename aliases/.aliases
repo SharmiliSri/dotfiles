@@ -1,0 +1,12 @@
+#ALIASES
+
+#Basic Tasks
+alias ..='cd ..'
+alias l='ls -alh'
+alias ll='ls -alth'
+
+#NewDir
+take(){
+	mkdir $1
+	cd $1
+}
