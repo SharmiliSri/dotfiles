@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Creates a new shell script
+
+
+touch $1
+chmod +x $1
+echo "#!/usr/bin/env bash" >> $1
+echo "#Written by AravinthChandran" >> $1
+mv $1 $SCRIPTS
+vim $SCRIPTS/$1
+
+
+

@@ -1,6 +1,11 @@
 #---------------------------------------------------------------------------
 #Shell Configuration
 #---------------------------------------------------------------------------
+
+export SCRIPTS=$HOME/bin/scripts
+
+export PATH=$PATH:$SCRIPTS
+
 #Color Choice 
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 export CLICOLOR=true
