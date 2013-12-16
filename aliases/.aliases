@@ -4,6 +4,9 @@
 alias ..='cd ..'
 alias l='ls -alh'
 alias ll='ls -alth'
+alias j='jobs'
+
+
 
 #Customize
 alias c='clear'

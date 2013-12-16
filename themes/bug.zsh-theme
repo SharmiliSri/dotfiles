@@ -1,5 +1,0 @@
-#Minimalist Bug
-
-
-PS1='🐞 '
-

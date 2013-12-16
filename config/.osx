@@ -22,12 +22,11 @@ defaults write com.apple.finder QuitMenuItem -bool true
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
 # Always show scrollbars
-defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+# defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Possible values: `WhenScrolling`, `Automatic` and `Always`
 
 #Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
-
 
 #Allow Text Selection in quick look
 defaults write com.apple.finder QLEnableTextSelection -bool true
@@ -57,13 +56,11 @@ chflags nohidden ~/Library
 # Use AirDrop over every interface
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 
-
 #Safari 
 #------
 
 #Allow hitting the Backspace key to go to the previous page in history
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
-
 
 #Hide Safari's bookmark bar.
 defaults write com.apple.Safari ShowFavoritesBar -bool false
@@ -81,10 +78,8 @@ dir_in_title() { settitle $PWD }
 chpwd_functions=(dir_in_title)
 
 
-###############################################################################
-# Spotlight                                                                   #
-###############################################################################
-
+# Spotlight
+#----------
 # Hide Spotlight tray-icon (and subsequent helper)
 #sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 # Disable Spotlight indexing for any volume that gets mounted and has not yet

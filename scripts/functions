@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#Functions to perform some common tasks
+#Written by AravinthChandran 
+#Started on 16/12/2013
+
+
+#create new file to write shell scripts with basic configuration
+function nsc() {
+	touch $1
+	chmod +x $1
+	echo "#!/usr/bin/env bash" >> $1
+	echo "#Written by AravinthChandran" >> $1
+	mv $1 $SCRIPTS
+	vim $SCRIPTS/$1
+}
+
+
+
