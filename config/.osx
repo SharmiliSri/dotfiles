@@ -1,6 +1,6 @@
 # OSX Defaults
-# -------------
-# Ripped from popular dotfile repositores to make life easier in OSX
+# --------------------------------------
+# Copied from mathiasbynens osx dotfiles
 
 # Show remaining battery time; hide percentage
 defaults write com.apple.menuextra.battery ShowPercent -string "NO"

@@ -17,6 +17,5 @@ gc(){
 	git commit -m"$1"
 }
 
-#Undo Last commit, keeping the modification 
-#!/bin/zsh
+#Undo Last commit, keeping the modification
 alias guc='git reset --soft HEAD^' 

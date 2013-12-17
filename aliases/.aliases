@@ -1,4 +1,6 @@
 #ALIASES
+#Written By AravinthChandran
+#Started on 16/12/2013
 
 #Basic Tasks
 alias ..='cd ..'
@@ -6,11 +8,13 @@ alias l='ls -alh'
 alias ll='ls -alth'
 alias j='jobs'
 
-
-
 #Customize
 alias c='clear'
 alias bug='cd ~/bin/dotfiles'
+
+#Sublime Text
+#ref -> http://blog.alexmaccaw.com/sublime-text
+alias e='subl . &'
 
 #NewDir
 take(){
