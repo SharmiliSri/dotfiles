@@ -2,6 +2,9 @@
 #Written By AravinthChandran
 #Started on 16/12/2013
 
+#reload dotfiles
+alias rl="source ~/.zshrc"
+
 #Basic Tasks
 alias ..='cd ..'
 alias l='ls -alh'
