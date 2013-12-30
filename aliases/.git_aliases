@@ -26,3 +26,6 @@ gc(){
 
 #Undo Last commit, keeping the modification
 alias guc='git reset --soft HEAD^' 
+
+#Reset to the HEAD
+alias gcp='git reset --hard HEAD'

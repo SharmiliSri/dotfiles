@@ -1,3 +1,3 @@
 #Minimalist Bug
-export PS1='🐞 ' 
+PROMPT="🐞 " 
 
