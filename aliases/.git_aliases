@@ -28,4 +28,4 @@ gc(){
 alias guc='git reset --soft HEAD^' 
 
 #Reset to the HEAD
-alias gcp='git reset --hard HEAD'
+alias gr='git reset --hard HEAD'

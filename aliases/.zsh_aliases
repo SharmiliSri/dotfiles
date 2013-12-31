@@ -29,4 +29,4 @@ alias unlock='chflags -R nouchg *'
 
 #Jekyll
 alias j='jekyll'
-alias s='jekyll serve'
+alias s='jekyll serve -w'

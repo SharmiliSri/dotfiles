@@ -1,4 +1,6 @@
-#Automate jekyll process
+#Update _site folder 
+echo "updating the _site with new changes"
+jekyll build
 
 # Upload to S3!
 echo "\n\n-> Uploading to S3"
