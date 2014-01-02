@@ -1,0 +1,7 @@
+#Update _site folder 
+echo "reloading jekyll"
+jekyll build
+
+echo "Pushing the website to s3"
+s3_website push
+

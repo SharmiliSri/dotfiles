@@ -30,3 +30,6 @@ alias unlock='chflags -R nouchg *'
 #Jekyll
 alias j='jekyll'
 alias s='jekyll serve -w'
+
+#Path
+alias web='cd /Users/AravinthChandran/Developer/Web/jekyll/aravinthchandran'
