@@ -10,13 +10,11 @@ alias ..='cd ..'
 alias l='ls -alh'
 alias ll='ls -alth'
 alias j='jobs'
-
-#Customize
 alias c='clear'
-alias bug='cd ~/bin/dotfiles'
 
-#Sublime Text
+#Tools
 alias e='subl . &'
+alias xv='xmllint --valid --noout' #XML validation tool
 
 #NewDir
 take(){
@@ -33,3 +31,5 @@ alias s='jekyll serve -w'
 
 #Path
 alias web='cd /Users/AravinthChandran/Developer/Web/jekyll/aravinthchandran'
+alias lhost='cd /Applications/AMPPS/www'
+alias bug='cd ~/bin/dotfiles'
