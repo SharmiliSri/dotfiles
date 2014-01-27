@@ -14,7 +14,21 @@ alias c='clear'
 
 #Tools
 alias e='subl . &'
-alias xv='xmllint --valid --noout' #XML validation tool
+alias xwf='xmllint --noout' #checks for well formed XML
+alias xdtd='xmllint --valid --noout'#XML validation tool
+
+#Go to the Relational Algebra directory and run the ra interpreter tool
+ra(){
+	clear
+	cd /Users/AravinthChandran/Developer/Databases/RA_Interpreter/ra
+	echo "Im Currently redirected to my practice database folder"
+	echo "Now opening sample data markup in browser"
+	open ../Database_Markup/pizzadata.webarchive
+	echo "RA Interpreter now opens"
+	java -jar ra.jar
+}
+
+
 
 #NewDir
 take(){
@@ -31,5 +45,5 @@ alias s='jekyll serve -w'
 
 #Path
 alias web='cd /Users/AravinthChandran/Developer/Web/jekyll/aravinthchandran'
-alias lhost='cd /Applications/AMPPS/www'
+alias lhost='cd /Users/AravinthChandran/Desktop/Inventory'
 alias bug='cd ~/bin/dotfiles'
