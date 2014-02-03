@@ -1,0 +1,6 @@
+.read student_data.sql
+.read moviedata.sql
+.prompt "-> "
+.mode column
+.header ON
+.nullvalue "Null"

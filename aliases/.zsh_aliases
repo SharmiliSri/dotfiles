@@ -24,6 +24,8 @@ ra(){
 	echo "Im Currently redirected to my practice database folder"
 	echo "Now opening sample data markup in browser"
 	open ../Database_Markup/pizzadata.webarchive
+	echo "Opening the RA_Interpreter Manual"
+	open ../RA_Manual/ra_manual.webarchive
 	echo "RA Interpreter now opens"
 	java -jar ra.jar
 }
