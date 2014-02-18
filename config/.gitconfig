@@ -1,3 +1,6 @@
 [user]
 	name = AravinthChandran
 	email = arvinthchandran@gmail.com
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
