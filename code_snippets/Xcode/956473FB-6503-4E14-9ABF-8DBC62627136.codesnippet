@@ -1,3 +1,23 @@
+<!--
+
+Initializer
+-----------
+Initializes super class and adds own init features.
+
+
+Snippet
+-------
+  self = [super init];
+    if (!self) {
+        return nil;
+    }
+    
+    <# initializations #>;
+    
+    return self;
+
+-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
