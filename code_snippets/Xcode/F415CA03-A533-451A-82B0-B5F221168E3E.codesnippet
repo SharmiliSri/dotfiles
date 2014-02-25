@@ -3,31 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>pro</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
+		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super init];
-    if (!self) {
-        return nil;
-    }
-    
-    &lt;#initializations#&gt;
-    
-    return self;</string>
+	<string>@property (strong, nonatomic) &lt;#ClassName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>956473FB-6503-4E14-9ABF-8DBC62627136</string>
+	<string>F415CA03-A533-451A-82B0-B5F221168E3E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>init</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Initializer</string>
+	<string>Property (nonatomic, strong)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

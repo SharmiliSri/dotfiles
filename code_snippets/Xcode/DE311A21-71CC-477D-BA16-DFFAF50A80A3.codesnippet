@@ -1,15 +1,3 @@
-<!--
-
-Pragma Mark
------------
-Description of various section in code
-
-Snippet
--------
-#pragma mark - <# mark #>
-
--->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -19,6 +7,8 @@ Snippet
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
+		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - &lt;# mark #&gt;</string>
@@ -33,6 +23,6 @@ Snippet
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
