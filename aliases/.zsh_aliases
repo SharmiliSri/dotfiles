@@ -14,8 +14,8 @@ alias c='clear'
 
 #Tools
 alias e='subl . &'
-alias xwf='xmllint --noout' #checks for well formed XML
-alias xdtd='xmllint --valid --noout'#XML validation tool
+#alias xwf='xmllint --noout' #checks for well formed XML
+#alias xdtd='xmllint --valid --noout'#XML validation tool
 
 #Go to the Relational Algebra directory and run the ra interpreter tool
 ra(){
