@@ -37,3 +37,8 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 
+# Hide Spotlight tray-icon (and subsequent helper)
+# sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
+
+# Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
+defaults write com.apple.finder QuitMenuItem -bool true
