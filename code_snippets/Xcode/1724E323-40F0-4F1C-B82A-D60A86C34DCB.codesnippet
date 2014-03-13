@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pro</string>
+	<string>todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#PropertyName#&gt;</string>
+	<string>// TODO: &lt;#Enter your todo here #&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F415CA03-A533-451A-82B0-B5F221168E3E</string>
+	<string>1724E323-40F0-4F1C-B82A-D60A86C34DCB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>write your todos that you want to implement later </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property (nonatomic, strong)</string>
+	<string>ToDo</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

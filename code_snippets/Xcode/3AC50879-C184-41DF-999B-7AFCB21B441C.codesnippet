@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pro</string>
+	<string>ins</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#PropertyName#&gt;</string>
+	<string> if(!_&lt;#variable#&gt;){
+        _&lt;#variable#&gt; = &lt;#initMethod#&gt;
+    }
+    return _&lt;#variable#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F415CA03-A533-451A-82B0-B5F221168E3E</string>
+	<string>3AC50879-C184-41DF-999B-7AFCB21B441C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>LazyInstantiation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property (nonatomic, strong)</string>
+	<string>ins</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
