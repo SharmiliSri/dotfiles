@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ins</string>
+	<string>void</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> if(!_&lt;#variable#&gt;){
-        _&lt;#variable#&gt; = &lt;#initMethod#&gt;
-    }
-    return _&lt;#variable#&gt;</string>
+	<string>-(void)&lt;#Method Name#&gt;{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3AC50879-C184-41DF-999B-7AFCB21B441C</string>
+	<string>010B7693-934D-46F4-AFB5-C5727EED1527</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>LazyInstantiation</string>
+	<string>void</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ins</string>
+	<string>void</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

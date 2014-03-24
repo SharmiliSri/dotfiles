@@ -2,32 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super init];
-    if (!self) {
-        return nil;
+	<string>-(instancetype)initWith&lt;#Method Name#&gt;{
+    self = [super init];
+    
+    if(self){
+        &lt;#Initialization#&gt;
     }
     
-    &lt;#initializations#&gt;
-    
-    return self;</string>
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>956473FB-6503-4E14-9ABF-8DBC62627136</string>
+	<string>32A303DB-9CCC-4C3D-AFEF-9895DB33128C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>init</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Initializer</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

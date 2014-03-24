@@ -4,18 +4,20 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/Forecast cells shouldn’t be selectable. So Gave them a semi-transparent black background and white text
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.backgroundColor = [UIColor colorWithWhite:0 alpha:0.2];
-    cell.textLabel.textColor = [UIColor whiteColor];
-    cell.detailTextLabel.textColor = [UIColor whiteColor];
-    // TODO: Setup the cell
-    return cell;</string>
+	<string>-(instancetype)initWith&lt;#Method Name#&gt;{
+    self = [super init];
+    
+    if(self){
+        &lt;#Initialization#&gt;
+    }
+    
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>28B12289-FA88-4858-8DAE-B1709D57B9EB</string>
+	<string>84CA17FB-57FD-406A-9066-84E517D62ED3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
@@ -23,6 +25,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
