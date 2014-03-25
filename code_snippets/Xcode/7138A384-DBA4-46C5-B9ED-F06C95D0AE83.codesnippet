@@ -2,28 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>def</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-- (instancetype)initWithName:(NSString *)name phoneNumber:(NSInteger)number emailAddress:(NSString *)emailAddress
-                 dateOfBirth:(NSString *)dateOfBirth andPhoto:(UIImage *)photo{
-    self = [super init];
-    
-    if (self) {
-        
-    }
-    
-    return self;
-}</string>
+	<string>#define &lt;#Constant Name#&gt; @"&lt;#value#&gt;"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>58F1018B-FBA7-4F26-A48C-839B69742541</string>
+	<string>7138A384-DBA4-46C5-B9ED-F06C95D0AE83</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>#Define</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>#Define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
