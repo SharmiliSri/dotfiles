@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>navtab</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //Screen Setup
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    //Root ViewController is a navigation controller containing a table view controller
+    UINavigationController *navController = [[UINavigationController alloc]init];
+    self.window.rootViewController = navController;
+    &lt;#TableViewControllerClass#&gt; *&lt;#Variable Name#&gt;ViewController = [[&lt;#TableViewControllerClass#&gt; alloc]init];
+    [navController setViewControllers:[NSArray arrayWithObject:&lt;#Variable Name#&gt;ViewController] animated:YES];
+    [self.window makeKeyAndVisible];
+    return YES;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>10668ED8-43AA-4787-8F48-89049E7BC599</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Navigation + Table View Controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Navigation + Table View Controller</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
