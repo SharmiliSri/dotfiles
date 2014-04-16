@@ -14,6 +14,7 @@ alias c='clear'
 
 #Tools
 alias e='subl . &'
+alias sim='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app' 
 #alias xwf='xmllint --noout' #checks for well formed XML
 #alias xdtd='xmllint --valid --noout'#XML validation tool
 
