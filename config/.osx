@@ -6,6 +6,9 @@ chpwd_functions=(dir_in_title)
 #Safari 
 #------
 
+# Use AirDrop over every interface. seriously this should be a default.
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+
 #Allow hitting the Backspace key to go to the previous page in history
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
