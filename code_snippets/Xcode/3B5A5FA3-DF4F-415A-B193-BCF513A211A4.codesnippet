@@ -21,20 +21,22 @@
     return &lt;#number#&gt;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView
-         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseIdentifier#&gt; forIndexPath:&lt;#indexPath#&gt;];
     
-    [self configureCell:cell forRowAtIndexPath:indexPath];
+    NSString *cellIdentifier = @"&lt;#Reuse Identifier#&gt;";
+    
+    &lt;#CellClass#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+    if (!cell) {
+        //If there is no cell at that indexpath create a new one
+        cell = [[&lt;#CellClass#&gt; alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    }
+    
+    &lt;#Modify Cell Properties#&gt;
     
     return cell;
-}
-
-- (void)configureCell:(UITableViewCell *)cell
-    forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    &lt;#statements#&gt;
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
