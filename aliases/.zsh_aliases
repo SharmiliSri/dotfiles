@@ -15,6 +15,9 @@ alias c='clear'
 #Tools
 alias e='subl . &'
 alias sim='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app' 
+alias startRedis='redis-server > /tmp/redis.log &'
+alias strock='ngrok -authtoken 3ANrzf-SVUiJvWLM7MLY -subdomain Arvch 3000 > /tmp/ngrok.log &'     
+
 #alias xwf='xmllint --noout' #checks for well formed XML
 #alias xdtd='xmllint --valid --noout'#XML validation tool
 

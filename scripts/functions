@@ -24,4 +24,15 @@ function push(){
 	s3_website push
 }
 
-
+#start MobiHelp Server
+function mobihelp(){
+	echo "Ngroc Start"
+	strock
+	echo "Launch Redis"
+	startRedis
+	echo "Start HelpKit Server"
+	cd ~/Developer/Web/helpkit_alt
+	ruby script/server > /tmp/mobihelp_server.log &
+	open http://arvch.ngrok.com/
+	echo "All Done !!!"
+}
