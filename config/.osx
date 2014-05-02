@@ -45,3 +45,6 @@ chflags nohidden ~/Library
 
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
+
+# YES or NO to show Hidden files in finder
+defaults write com.apple.finder AppleShowAllFiles NO
